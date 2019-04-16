@@ -30,20 +30,6 @@ namespace CBLEncryptionKeyGenerator.Controllers
                             };
             return Content(HttpStatusCode.OK, key);
         }
-
-        // POST: api/EncryptionKey
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT: api/EncryptionKey/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE: api/EncryptionKey/5
-        public void Delete(int id)
-        {
-        }
+       
     }
 }

@@ -60,13 +60,6 @@ namespace CBLEncryptionKeyGenerator.Repository
         
 
         }
-        //catch (Exception ex)
-        //{
-        //    throw new Exception("An error has occured while generating key, Please refer to your system Admin");
-        //}
-
-
-        //}
 
         private static string GenerateRandomKey(string id)
         {
